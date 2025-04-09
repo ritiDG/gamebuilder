@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // Game builder specific colors
+        game: {
+          primary: '#9b87f5',
+          secondary: '#7E69AB', 
+          background: '#1A1F2C',
+          card: '#222632',
+          text: '#FFFFFF',
+          accent: '#8B5CF6',
+        }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
